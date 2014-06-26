@@ -7,14 +7,14 @@
     using FrameTrapped.StreetFighterLibrary.ViewModels;
     using FrameTrapped.Input.ViewModels;
     using FrameTrapped.Input.Models;
-
+    
     public static class FighterDataAE2012
     {
         public static IEventAggregator Events;
-
+ 
         public static FighterViewModel Ryu()
         {
-            BindableCollection<HitViewModel> tmpHitList; ;
+            BindableCollection<HitViewModel> tmpHitList;
             CommandViewModel tmpCommand;
 
             MoveListViewModel moveList = new MoveListViewModel();
@@ -1561,22 +1561,34 @@
             return fighter;
         }
 
+
+
+
+
+
+
+
+
+
+
+
+
         public static FighterViewModel Gen()
         {
-            BindableCollection<HitViewModel> tmpHitList; ;
-            CommandViewModel tmpCommand;
+            BCMreader.loadBCM("rYu");
 
-            MoveListViewModel moveList = new MoveListViewModel();
+            MoveListViewModel moveList = BCMreader.getInputs();
+            
             FighterViewModel fighter = new FighterViewModel("Gen", FighterViewModel.FighterTypeEnum.Shoto, 1000, 1000, 0.045f, 0.030f, moveList);
             return fighter;
         }
 
         public static FighterViewModel Dan()
         {
-            BindableCollection<HitViewModel> tmpHitList; ;
-            CommandViewModel tmpCommand;
+            BCMreader.loadBCM("dan");
 
-            MoveListViewModel moveList = new MoveListViewModel();
+            MoveListViewModel moveList = BCMreader.getInputs();
+
             FighterViewModel fighter = new FighterViewModel("Dan", FighterViewModel.FighterTypeEnum.Shoto, 1000, 1000, 0.045f, 0.030f, moveList);
             return fighter;
         }
@@ -1777,10 +1789,10 @@
 
         public static FighterViewModel Zangief()
         {
-            BindableCollection<HitViewModel> tmpHitList; ;
-            CommandViewModel tmpCommand;
+            BCMreader.loadBCM("zgf");
 
-            MoveListViewModel moveList = new MoveListViewModel();
+            MoveListViewModel moveList = BCMreader.getInputs();
+
             FighterViewModel fighter = new FighterViewModel("Zangief", FighterViewModel.FighterTypeEnum.Shoto, 1000, 1000, 0.045f, 0.030f, moveList);
             return fighter;
         }
@@ -1837,10 +1849,10 @@
 
         public static FighterViewModel THawk()
         {
-            BindableCollection<HitViewModel> tmpHitList; ;
-            CommandViewModel tmpCommand;
+            BCMreader.loadBCM("hwk");
 
-            MoveListViewModel moveList = new MoveListViewModel();
+            MoveListViewModel moveList = BCMreader.getInputs();
+
             FighterViewModel fighter = new FighterViewModel("T. Hawk", FighterViewModel.FighterTypeEnum.Shoto, 1000, 1000, 0.045f, 0.030f, moveList);
             return fighter;
         }

@@ -81,6 +81,9 @@
     <Reference Include="MahApps.Metro">
       <HintPath>..\lib\MahApps.Metro.dll</HintPath>
     </Reference>
+    <Reference Include="RainbowLib">
+      <HintPath>..\..\Ono Tool\trunk\RainbowTool\RainbowLib\bin\Debug\RainbowLib.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Data" />
@@ -113,6 +116,7 @@
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Utilities\BCMreader.cs" />
     <Compile Include="Utilities\FighterDataAE2012.cs" />
     <Compile Include="ViewModels\CommandViewModel.cs" />
     <Compile Include="ViewModels\FighterViewModel.cs" />
