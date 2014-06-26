@@ -91,10 +91,10 @@
     <ManifestCertificateThumbprint>F5683C48A739DD820BF18F0A4F02E30D71A003A9</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <GenerateManifests>true</GenerateManifests>
+    <GenerateManifests>false</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>FrameTrapped_TemporaryKey.pfx</ManifestKeyFile>
