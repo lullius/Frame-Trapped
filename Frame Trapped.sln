@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameTrapped.Common", "FrameTrapped.Common\FrameTrapped.Common.csproj", "{A64D40B5-75E0-4BC9-9634-E3064BD4735D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameTrapped.StreetFighterLibrary", "FrameTrapped.StreetFighterLibrary\FrameTrapped.StreetFighterLibrary.csproj", "{BB9129B7-F30F-4CCD-BE62-A8F98D8505F1}"
@@ -34,6 +36,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameTrapped.Options", "Fra
 	ProjectSection(ProjectDependencies) = postProject
 		{A64D40B5-75E0-4BC9-9634-E3064BD4735D} = {A64D40B5-75E0-4BC9-9634-E3064BD4735D}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameTrapped.Injected", "FrameTrapped.Injected\FrameTrapped.Injected.csproj", "{C17EB725-4D7F-450E-A945-0A795FCC56E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameTrapped.Injector", "FrameTrapped.Injector\FrameTrapped.Injector.csproj", "{5433106A-CD2E-4259-9D47-D1D07ED25A91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -74,6 +80,14 @@ Global
 		{C3ED2861-38A2-4079-9A19-1A1C3D83B674}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3ED2861-38A2-4079-9A19-1A1C3D83B674}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3ED2861-38A2-4079-9A19-1A1C3D83B674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17EB725-4D7F-450E-A945-0A795FCC56E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17EB725-4D7F-450E-A945-0A795FCC56E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17EB725-4D7F-450E-A945-0A795FCC56E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17EB725-4D7F-450E-A945-0A795FCC56E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5433106A-CD2E-4259-9D47-D1D07ED25A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5433106A-CD2E-4259-9D47-D1D07ED25A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5433106A-CD2E-4259-9D47-D1D07ED25A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5433106A-CD2E-4259-9D47-D1D07ED25A91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
